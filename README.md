@@ -8,27 +8,39 @@ This repository contains tools for running FlexiTac in IsaacSim, including:
 ## Installation
 
 ### 1. Install Isaac Sim
+Skip this step if Isaac Sim is already installed.
 
-First, install Isaac Sim by following the official documentation:
+Follow the official NVIDIA documentation:  
+[Isaac Sim Installation Guide](https://docs.isaacsim.nvidia.com/5.1.0/installation/quick-install.html)
 
-[Isaac Sim Installation Guide](https://docs.isaacsim.omniverse.nvidia.com/5.1.0/installation/quick-install.html)
-
-### 2. Clone the repository
-
-This repository uses **Git LFS** for large asset files. Please install Git LFS before cloning, otherwise some mesh and USD assets may be downloaded as pointer files instead of real content.
+1. Download Isaac Sim 5.1.0 or later:  
+   [Isaac Sim 5.1.0 Linux Download](https://downloads.isaacsim.nvidia.com/isaac-sim-standalone-5.1.0-linux-x86_64.zip)
+2. Extract the downloaded archive into an `isaac-sim` directory.
+3. On Linux, run:
 
 ```bash
-git clone https://github.com/binghao-huang/FlexiTac-IsaacSim-Simulation.git
+./post_install.sh
+./isaac-sim.selector.sh
 ```
 
-Follow the [IsaacLab instruction guideline](https://isaac-sim.github.io/IsaacLab/main/source/setup/installation/pip_installation.html) setup instructions in this repo.
+### 3. Install IsaacLab and dependencies
 
+Set up IsaacLab by following the official installation guide:  
+[IsaacLab pip installation guide](https://isaac-sim.github.io/IsaacLab/main/source/setup/installation/pip_installation.html)
 
+Create and activate a conda environment:
+
+```bash
+conda create -n tactile_isaaclab python=3.11
+conda activate tactile_isaaclab
+```
+
+Install additional dependencies:
 
 ```bash
 pip uninstall -y opencv-python-headless
 pip install opencv-python==4.11.0.86
-pip install viser 
+pip install viser
 ```
 
 ## Replay a Recorded Trajectory
