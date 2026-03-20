@@ -85,7 +85,7 @@ Launch the tactile replay viewer with a saved dataset episode:
 ./isaaclab.sh -p Isaacsim_tactile_env/reply_with_tactile.py \
     --dataset_npz Isaacsim_tactile_env/data/dataset_train.npz \
     --normalization_pth Isaacsim_tactile_env/data/dataset_normalizer.npz \
-    --episode_idx 0 \
+    --episode_idx 3 \
     --replay_key joint_states \
     --steps_per_frame 3
 ```
@@ -95,8 +95,6 @@ Launch the tactile replay viewer with a saved dataset episode:
 Start the Viser-based teleoperation interface:
 
 ```bash
-cd ~/FlexiTac-IsaacSim-Simulation
-
 ./isaaclab.sh -p Isaacsim_tactile_env/viser_interface.py \
     --headless \
     --enable_cameras
