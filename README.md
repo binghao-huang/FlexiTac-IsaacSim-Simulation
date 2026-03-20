@@ -5,6 +5,8 @@ This repository contains tools for running FlexiTac in IsaacSim, including:
 - **trajectory replay with tactile visualization**
 - **a browser-based Viser interface for interactive control**
 
+![Demo](isaacsim.gif)
+
 ## 🛠️ Installation
 
 ### 1. Install Isaac Sim
@@ -105,3 +107,10 @@ Then open the following in your browser:
 ```text
 http://localhost:8080
 ```
+
+![Demo](web_demo.gif)
+
+
+# Acknowledgements
+
+We thank Jimmy Wang, Yifan He, Xuihui Kang, and Yuhao Zhou for their contribution, valueable feedback and suggestions on this simulation environment.
