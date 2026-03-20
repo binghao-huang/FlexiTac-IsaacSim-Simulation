@@ -35,6 +35,32 @@ conda create -n tactile_isaaclab python=3.11
 conda activate tactile_isaaclab
 ```
 
+Install Isaac Sim pip packages:
+
+```bash
+pip install "isaacsim[all,extscache]==5.1.0" --extra-index-url https://pypi.nvidia.com
+```
+
+Install a CUDA-enabled PyTorch build that matches your system architecture:
+
+```bash
+pip install -U torch==2.7.0 torchvision==0.22.0 --index-url https://download.pytorch.org/whl/cu128
+```
+
+Verifying the Isaac Sim installation:
+
+```bash
+isaacsim
+```
+
+Run the install command that iterates over all the extensions in source directory and installs them using pip (with --editable flag):
+
+```bash
+cd ~/FlexiTac-IsaacSim-Simulation
+./isaaclab.sh --install # or "./isaaclab.sh -i"
+```
+
+
 Install additional dependencies:
 
 ```bash
@@ -48,8 +74,6 @@ pip install viser
 Launch the tactile replay viewer with a saved dataset episode:
 
 ```bash
-cd ~/FlexiTac-IsaacSim-Simulation
-
 ./isaaclab.sh -p Isaacsim_tactile_env/reply_with_tactile.py \
     --dataset_npz Isaacsim_tactile_env/data/dataset_train.npz \
     --normalization_pth Isaacsim_tactile_env/data/dataset_normalizer.npz \
