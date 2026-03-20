@@ -113,4 +113,5 @@ http://localhost:8080
 
 # Acknowledgements
 
-We thank Jimmy Wang, Yifan He, Xuihui Kang, and Yuhao Zhou for their contribution, valueable feedback and suggestions on this simulation environment.
+We thank Jimmy Wang, Yifan He, Xuihui Kang, Yuhao Zhou, Jie Xu, Iretiayo Akinola
+, Yu-Wei Chao, Siyu Ma, and Chang Yu for their contribution, valueable feedback and suggestions on this simulation environment.
