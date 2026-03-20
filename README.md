@@ -1,9 +1,25 @@
 # IsaacSim Tactile Environment for FlexiTac
 
+**Authors:**  
+Binghao Huang¹, Yunzhu Li¹  
+¹Columbia University
+
+FlexiTac is an open-source, scalable tactile sensing platform designed to make touch sensing more accessible for robotics. It supports flexible sensor fabrication, real-time tactile readout, and integration into manipulation systems such as grippers, robot arms, and tactile skins. The broader FlexiTac project also includes hardware tutorials, simulation support, and system design examples for robotic applications.
+
+**Project website:**  [https://flexitac.github.io/](https://flexitac.github.io/)
+
+
+To build the tactile sensors, follow the hardware assembly tutorial below:
+[**Hardware Assembly Tutorial**](https://docs.google.com/document/d/1bvz6AL7BUkhj4Dj7n9DFXTjnGIX4-ziN8-smiCKpVZU/edit?usp=sharing)
+
+
+## Overview of This Repo
+
 This repository contains tools for running FlexiTac in IsaacSim, including:
 
 - **trajectory replay with tactile visualization**
 - **a browser-based Viser interface for interactive control**
+
 
 ![Demo](isaacsim.gif)
 
