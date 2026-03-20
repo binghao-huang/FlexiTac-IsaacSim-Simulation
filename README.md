@@ -13,14 +13,22 @@ Skip this step if Isaac Sim is already installed.
 Follow the official NVIDIA documentation:  
 [Isaac Sim Installation Guide](https://docs.isaacsim.nvidia.com/5.1.0/installation/quick-install.html)
 
-1. Download Isaac Sim 5.1.0 or later:  
+Download Isaac Sim 5.1.0 or later:  
    [Isaac Sim 5.1.0 Linux Download](https://downloads.isaacsim.nvidia.com/isaac-sim-standalone-5.1.0-linux-x86_64.zip)
-2. Extract the downloaded archive into an `isaac-sim` directory.
-3. On Linux, run:
+
+Extract the downloaded archive into an `isaac-sim` directory.
+On Linux, run:
 
 ```bash
 ./post_install.sh
 ./isaac-sim.selector.sh
+```
+
+### 2. Clone this repository
+
+```bash
+git clone https://github.com/binghao-huang/FlexiTac-IsaacSim-Simulation.git
+cd FlexiTac-IsaacSim-Simulation
 ```
 
 ### 3. Install IsaacLab and dependencies
