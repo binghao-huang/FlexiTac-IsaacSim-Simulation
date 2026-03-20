@@ -5,7 +5,7 @@ This repository contains tools for running FlexiTac in IsaacSim, including:
 - **trajectory replay with tactile visualization**
 - **a browser-based Viser interface for interactive control**
 
-## Installation
+## 🛠️ Installation
 
 ### 1. Install Isaac Sim
 Skip this step if Isaac Sim is already installed.
@@ -77,7 +77,7 @@ pip install opencv-python==4.11.0.86
 pip install viser
 ```
 
-## Replay a Recorded Trajectory
+## 🖥️ Replay a Recorded Trajectory
 
 Launch the tactile replay viewer with a saved dataset episode:
 
@@ -90,7 +90,7 @@ Launch the tactile replay viewer with a saved dataset episode:
     --steps_per_frame 3
 ```
 
-## Launch the Interactive Web Interface
+## 🦾 Launch the Interactive Web Interface
 
 Start the Viser-based teleoperation interface:
 
