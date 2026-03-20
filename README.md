@@ -18,9 +18,7 @@ First, install Isaac Sim by following the official documentation:
 This repository uses **Git LFS** for large asset files. Please install Git LFS before cloning, otherwise some mesh and USD assets may be downloaded as pointer files instead of real content.
 
 ```bash
-sudo apt install git-lfs
-git lfs install
-git clone xxxxxxxxxx
+git clone https://github.com/binghao-huang/FlexiTac-IsaacSim-Simulation.git
 ```
 
 Follow the [IsaacLab instruction guideline](https://isaac-sim.github.io/IsaacLab/main/source/setup/installation/pip_installation.html) setup instructions in this repo.
@@ -38,7 +36,7 @@ pip install viser
 Launch the tactile replay viewer with a saved dataset episode:
 
 ```bash
-cd ~/repos/IsaacLab
+cd ~/FlexiTac-IsaacSim-Simulation
 
 ./isaaclab.sh -p Isaacsim_tactile_env/reply_with_tactile.py \
     --dataset_npz Isaacsim_tactile_env/data/dataset_train.npz \
@@ -53,7 +51,7 @@ cd ~/repos/IsaacLab
 Start the Viser-based teleoperation interface:
 
 ```bash
-cd ~/repos/IsaacLab
+cd ~/FlexiTac-IsaacSim-Simulation
 
 ./isaaclab.sh -p Isaacsim_tactile_env/viser_interface.py \
     --headless \
