@@ -29,7 +29,7 @@ This repository contains tools for running FlexiTac in IsaacSim, including:
 Skip this step if Isaac Sim is already installed.
 
 Follow the official NVIDIA documentation:  
-[Isaac Sim Installation Guide](https://docs.isaacsim.omniverse.nvidia.com/5.1.0/installation/index.html)
+[Isaac Sim Installation Guide](https://docs.isaacsim.omniverse.nvidia.com/5.1.0/installation/quick-install.html)
 
 Download Isaac Sim 5.1.0 or later:  
    [Isaac Sim 5.1.0 Linux Download](https://downloads.isaacsim.nvidia.com/isaac-sim-standalone-5.1.0-linux-x86_64.zip)
